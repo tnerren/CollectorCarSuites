@@ -1,3 +1,57 @@
 #home-button {
     font-family: 'Pacifico', cursive;
 }
+
+#hero-image {
+    background-image: url("images/21-0506\ Exterior\ Render.jpg"); 
+    background-color: #000000; 
+    height: 62vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+#hero-heading {    
+    font-family: 'Pacifico', cursive;
+}
+
+
+#map {
+    height: 300px;
+    width: 300px;
+  }
+
+  .card {
+      max-width:700px;
+  }
+
+  .card-img-top {
+    height: 15rem;
+    object-fit: cover;
+  }
+
+/* contact page */
+
+#contact-image {
+  background-image: url("images/21-0507\ Interior\ Render\ reduced.jpg"); 
+  background-color: #000000; 
+  height: 55vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+#rnerren {
+  background-image: url("images/randynerren.jpg");
+  background-color: #000000;
+}
