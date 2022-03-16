@@ -24,12 +24,11 @@
         }
     </script>
 </head>
-
 <body class="bg-dark">
 <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a href="#" class="navbar-brand" id="home-button">Collector's Car Suites</a>
+            <a href="index.html" class="navbar-brand" id="home-button">Collector's Car Suites</a>
             <button 
                 class="navbar-toggler" 
                 type="button" 
@@ -46,7 +45,12 @@
                     </li>
                     <li class="nav-item">
                         <a href="/options.html" class="nav-link">Options</a>
-                    </li>                    
+                    </li>  
+                    <!--
+                    <li class="nav-item">
+                      <a href="/about.html" class="nav-link">About</a>
+                    </li>                   
+                  -->
                     <li class="nav-item">
                         <a href="/contact.html" class="nav-link">Contact</a>
                     </li>
@@ -54,15 +58,12 @@
             </div>
         </div>
     </nav>
-
 <!-- MAIN/HERO -->
-
 <div class="px-4 py-2  text-center text-light" id="hero-image">
     <img class="d-block mx-auto mb-3 py-3" src="" alt="">
     <h1 class="display-5 fw-bold" id="hero-heading">Collector's Car Suites</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Houston's Premier luxury garage suites were designed for the discerning collector who wants to invest int he best option for large, secure space. Whether you have a large car collection or just a couple of special vehicles, a Collector's Car Suite can be customized to fit your needs. </p>
-
+      <p class="lead fw-bold mb-4">Houston's Premier luxury garage suites were designed for the discerning collector who wants to invest in the best option for large, secure space. Whether you have a large car collection or just a couple of special vehicles, a Collector's Car Suite can be customized to fit your needs. </p>
       <a href="/contact.html">
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <button type="button" class="btn btn-primary btn-lg px-4 gap-3 float-end">More Information</button>
@@ -71,24 +72,9 @@
     </div>
   </div>
 </div>
-
-
-<!-- second image-->
-
-<div class="px-4 py-2 mb-1 text-center text-light" id="hero-image2">
-  <img class="d-block mx-auto mb-3 py-3" src="" alt="">
- <!--<h1 class="display-5 fw-bold" id=""></h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4"></p>
-    </a>
-  -->
   </div>
 </div>
-
-
-
 <!-- MAP -->
-
 <div class="container col-xxl-8 px-4 py-1 pb-4">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
@@ -108,77 +94,91 @@
       </div>
     </div>
 </div>
-
 <!-- CARDS -->
-
-<div class="container-md-fluid px-1 mx-4">
-<div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/camera.jpg" class="card-img-top img-fluid" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Security</h5>
-          <p class="card-text">The entire complex is fenced and controlled by a limited access keypad gate. Each suite features state of the art security, exterior lighting, and a fire suppression system.</p>
-          <a href="/contact.html">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 float-sm-end">More Information</button>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/carimage.jpg" class="card-img-top img-fluid" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Customization</h5>
-          <p class="card-text">Each suite is a blank canvas for the owner to work with. Suite interiors can be as extensive or rudimentary as you choose. </p>
-          <a href="/contact.html">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 float-sm-end">More Information</button>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/coins-stacked.jpg" class="card-img-top img-fluid" alt="...">
+<!-- card 1-->
+<div class="container mx-auto mt-4 mb-4">
+  <div class="row">
+    <div class="col-md-4 d-flex">
+      <div class="card" style="width: 18rem;">
+  <img src="images/camera.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Security</h5>
+    <p class="card-text">The entire complex is fenced and controlled by a limited access keypad gate. Each suite features state of the art security.</p>
+    <a href="/contact.html" class="btn "> More Info </a>
+  </div>
+  </div>
+    </div>   
+<!-- card 2-->
+<div class="col-md-4 d-flex">
+  <div class="card" style="width: 18rem;">
+    <img src="images/red-porsche.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Customization</h5>
+    <p class="card-text">Each suite is a blank canvas for the owner to work with. Suite interiors can be as extensive or rudimentary as you choose.</p>
+    <a href="/contact.html" class="btn"> More Info </a>
+  </div>
+  </div>
+</div>    
+<!-- card 3-->
+  <div class="col-md-4 d-flex">
+    <div class="card" style="width: 18rem;">
+      <img src="images/stacked-coins.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Investment</h5>
-          <p class="card-text">Why waste monthly rent for space for your collection when you can invest in a Collectors Car Suite and build equity. </p>
-          <a href="/contact.html">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 float-sm-end">More Information</button>
-          </a>
-        </div>
-      </div>
-    </div>
+    <p class="card-text">Why waste monthly rent for space for your collection when you can invest in a Collectors Car Suite and build equity.</p>
+    <a href="/contact.html" class="btn"> More Info </a>
+  </div>
+  </div>
+  </div>
 </div>
 </div>
-<!-- FOOTER -->
-
-<footer class="p-5 bg-dark text-white text-center position-relative">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-<!--Footer Nav-->
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">options</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark">
     <div class="container">
-            <p class="lead">Copyright &copy; 2021 Collector's Car Suites</p>
+      <section class="mt-5">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/index.html" class="text-white">Home</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/options.html" class="text-white">Options</a>
+            </h6>
+          </div>
+<!--
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/about.html" class="text-white">About</a>
+            </h6>
+          </div>
+-->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/contact.html" class="text-white">Contact</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      <hr class="my-5" />
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Houston's Premier luxury garage suites were designed for the discerning collector who wants to invest in the best option for large, secure space. Whether you have a large car collection or just a couple of special vehicles, a Collector's Car Suite can be customized to fit your needs.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
-</footer> 
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+     Copyright © 2022 Collector's Car Suites 
+    </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
