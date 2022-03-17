@@ -14,7 +14,7 @@
         function initMap() {
           const location = { lat: 29.848, lng: -95.561 };
           const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 13,
+            zoom: 11,
             center: location,
           });
           const marker = new google.maps.Marker({
@@ -23,6 +23,15 @@
           });
         }
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P795813NQN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P795813NQN');
+</script>
 </head>
 <body class="bg-dark">
 <!-- NAVBAR -->
